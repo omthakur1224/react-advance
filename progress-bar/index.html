@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <div class="outero-container">
+    <div class="container">
+      <div class="progress-bar"></div>
+      <div class="content">
+        <div id="step-content">
+          {{content}}
+        </div>
+      </div>
+    <div class="checkbox-container">
+      <input type="checkbox" id="confirm" class="confirm" >
+      <label for="step">confirm</label>
+    </div>
+    <div class="action-container">
+      <button class="primary" onclick="prevStep()">prev</button>
+      <button class="primary" onclick="nextStep()">next</button>
+    </div>
+    </div>    
+  </div>
+  </body>
+  </html>
